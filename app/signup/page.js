@@ -28,7 +28,7 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-blue-200">
+    <div className="flex flex-col items-center justify-center h-screen bg-pink-100">
       <form onSubmit={handleSignup} className="bg-white p-6 rounded-xl shadow-md w-80">
         <h1 className="text-2xl font-bold mb-4">Create Employee Account</h1>
 
@@ -77,7 +77,7 @@ export default function SignupPage() {
           required
         />
 
-        <button type="submit" className="bg-blue-600 text-white py-2 rounded w-full">
+        <button type="submit" className="bg-pink-600 text-white py-2 rounded w-full">
           Create Account
         </button>
       </form>
